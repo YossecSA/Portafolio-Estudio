@@ -26,7 +26,8 @@ header{
     padding: 1.2em;
     position: sticky;
     top: 0;
-    background-color: rgb(88, 43, 57)
+    background-color: rgb(88, 43, 57);
+    z-index: 1;
 }
 #check{
     display: none; 
