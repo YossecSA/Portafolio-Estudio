@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class='bx bx-palette bx-flip-vertical bx-tada' ></i>
+        </div>
+        <nav>
+            <label for="check" class="checkbox">
+                <i class='bx bx-menu icono_menu'></i>
+            </label>
+            <ul class="nav_links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de mí</a></li>
+                <li><a href="#trabajos">Trabajos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="inicio" id="inicio">
+            <h1>¡Bienvenido a mí página!</h1>
+            <p>Aquí,  aprenderas más sobre mí</p>
+        </section>
+
+        <section class="section_1" id="acerca">
+            <div class="info">
+                <h2>Acerca de mí</h2>
+                <P class="texto">¡Bienvenido a mi pagina! Aqui, aprenderas mas sobre mí</P>
+                <p class="texto">Me llamo Tere, naci en Buenos Aires y vivo en Caballito.  Me gusta el helado y salir a pasear en dias de sol. Me encantaría aprender a programar para poder ayudar a las personas a mostrar lo que hacen</p>
+            </div>
+            <div class="info-img">
+                <img src="/img/perfil.jpg" alt="">
+            </div>
+        </section>
+        
+        <section class="section_3" id="trabajos">
+            <h2>Trabajos</h2>
+            <div class="container_trabajos">
+                <article>
+                    <img src="/img/laptop.jpg" alt="">
+                    <div class="cont_info">
+                        <p class="titulo">Titulo 1</p>
+                        <p class="info_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nisi quod placeat animi vel, explicabo laboriosam consectetur unde nam sit quasi quaerat deleniti amet asperiores officia delectus itaque optio iste.</p>
+                        <a href="#">Leer más</a>
+                    </div>
+                    
+                </article>
+                <article>
+                    <img src="/img/domenico-loia-EhTcC9sYXsw-unsplash.jpg" alt="">
+                    <div class="cont_info">
+                        <p class="titulo">Titulo 1</p>
+                        <p class="info_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nisi quod placeat animi vel, explicabo laboriosam consectetur unde nam sit quasi quaerat deleniti amet asperiores officia delectus itaque optio iste.</p>
+                        <a href="#">Leer más</a>
+                    </div>
+                    
+                </article>
+                <article>
+                    <img src="/img/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="">
+                   <div class="cont_info">
+                    <p class="titulo">Titulo 1</p>
+                    <p class="info_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nisi quod placeat animi vel, explicabo laboriosam consectetur unde nam sit quasi quaerat deleniti amet asperiores officia delectus itaque optio iste.</p>
+                    <a href="#">Leer más</a>
+                   </div>
+                </article>
+            </div>
+            
+        </section>
+        
+        <section class="section_4" id="contacto">
+        
+            <h2>Contacto</h2>
+            <p><em>¡Esperamos tu consulta!</em></p>
+            <form id="Form" action="mailto:yosec.arratea22@gmail.com" onsubmit="return validarFormulario()"  method="POST">
+                <div class="form-row">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Ingrese su email">
+                </div>
+                <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+                <div class="form-row boton">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+
+    <footer id="footer">
+        <h2>Contacto</h2>
+        <div class="footer-contenido">
+            <i class='bx bx-palette bx-flip-vertical bx-tada icono-footer' ></i>
+            <section class="redes">
+                <ul>
+                    <li><a href=""><i class='bx bx-phone'></i></a></li>
+                    <li><a href=""><i class='bx bxl-instagram' ></i></a></li>
+                    <li><a href=""><i class='bx bxl-tiktok' ></i></a></li>
+                </ul>
+            </section>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
